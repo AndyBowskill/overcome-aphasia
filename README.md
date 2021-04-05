@@ -1,1 +1,1 @@
-# The 'How To Overcome Aphasiia' website.
+# The 'How To Overcome Aphasia' website.
