@@ -57,7 +57,12 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 26px/54px 'Marcellus', serif;;
+}
+
+p {
+    font-size: 22px;
+    line-height: 32px;
 }
 
 .wrapper {
@@ -115,6 +120,47 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
+
+}
+
+.header {
+    padding: 5% 25%;
+}
+
+.section-1 {
+    background-color: #348AA7;
+    color: #fff;
+    padding: 5% 25%;
+}
+
+.section-2 {
+    background-color: #5DD39E;
+    padding: 5% 25%;
+}
+
+.section-3 {
+    background-color: #525174;
+    color: #fff;
+    padding: 5% 25%;
+}
+
+.section-4 {
+    background-color: #BCE784;
+    padding: 5% 25%;
+}
+
+.section-5 {
+    background-color: #513B56;
+    color: #fff;
+    padding: 5% 25%;
+}
+
+.footer {
+    padding: 5% 25%;
+}
+
+.quote {
+    padding: 5% 10%;   
 }
 
 /* ==============
