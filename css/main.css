@@ -3,26 +3,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
-}
-
-::-moz-selection {
-    /*background: #b3d4fc;*/
-    text-shadow: none;
-}
-
-::selection {
-    /*background: #b3d4fc;*/
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    line-height: 1em;
 }
 
 audio,
@@ -57,12 +38,20 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 26px/54px 'Marcellus', serif;;
+    font-size:  22px;
+    /*line-height: 10px;*/
+    font-family: 'Marcellus', serif;
+}
+
+h1 {
+    /*font-size: 26px;*/
+    font-size: 1.5em;
+    line-height: 1.2em;
 }
 
 p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1em;
+    line-height: 1.4em;
 }
 
 .wrapper {
@@ -123,40 +112,42 @@ nav a:hover {
 
 }
 
+
+
 .header {
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .section-1 {
     background-color: #348AA7;
     color: #fff;
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .section-2 {
     background-color: #5DD39E;
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .section-3 {
     background-color: #525174;
     color: #fff;
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .section-4 {
     background-color: #BCE784;
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .section-5 {
     background-color: #513B56;
     color: #fff;
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .footer {
-    padding: 5% 25%;
+    padding: 5% 15%;
 }
 
 .quote {
@@ -167,13 +158,13 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.main {
+/*.main {
     padding: 30px 0;
-}
+}*/
 
-.main article h1 {
+/*.main article h1 {
     font-size: 2em;
-}
+}*/
 
 .footer-container footer {
     color: white;
@@ -225,6 +216,52 @@ nav a:hover {
     .oldie nav a {
         margin: 0 0.7%;
     }
+
+
+
+
+    
+
+
+    .header {
+        padding: 5% 15%;
+    }
+    
+    .section-1 {
+        background-color: #348AA7;
+        color: #fff;
+        padding: 5% 15%;
+    }
+    
+    .section-2 {
+        background-color: #5DD39E;
+        padding: 5% 15%;
+    }
+    
+    .section-3 {
+        background-color: #525174;
+        color: #fff;
+        padding: 5% 15%;
+    }
+    
+    .section-4 {
+        background-color: #BCE784;
+        padding: 5% 15%;
+    }
+    
+    .section-5 {
+        background-color: #513B56;
+        color: #fff;
+        padding: 5% 15%;
+    }
+    
+    .footer {
+        padding: 5% 15%;
+    }
+    
+    .quote {
+        padding: 5% 10%;   
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -259,6 +296,58 @@ nav a:hover {
     .main article {
         float: left;
         /*width: 85%;*/
+    }
+
+    h1 {
+        /*font-size: 26px;*/
+        font-size: 1.8em;
+        line-height: 1.4em;
+    }
+    
+    p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+
+
+    .header {
+        padding: 10% 25% 5% 25%;
+    }
+    
+    .section-1 {
+        background-color: #348AA7;
+        color: #fff;
+        padding: 5% 25%;
+    }
+    
+    .section-2 {
+        background-color: #5DD39E;
+        padding: 5% 25%;
+    }
+    
+    .section-3 {
+        background-color: #525174;
+        color: #fff;
+        padding: 5% 25%;
+    }
+    
+    .section-4 {
+        background-color: #BCE784;
+        padding: 5% 25%;
+    }
+    
+    .section-5 {
+        background-color: #513B56;
+        color: #fff;
+        padding: 5% 25%;
+    }
+    
+    .footer {
+        padding: 5% 25%;
+    }
+    
+    .quote {
+        padding: 5% 10%;   
     }
 }
 
