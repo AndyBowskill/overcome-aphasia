@@ -1,18 +1,7 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
 html {
     color: #222;
     font-size: 1em;
     line-height: 1em;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
 }
 
 fieldset {
@@ -25,26 +14,12 @@ textarea {
     resize: vertical;
 }
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
 body {
     font-size:  22px;
-    /*line-height: 10px;*/
     font-family: 'Marcellus', serif;
 }
 
 h1 {
-    /*font-size: 26px;*/
     font-size: 1.5em;
     line-height: 1.2em;
 }
@@ -53,66 +28,6 @@ p {
     font-size: 1em;
     line-height: 1.4em;
 }
-
-.wrapper {
-    margin: 0 25%;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: 0px solid #fff;
-}
-
-.footer-container {
-    border-top: 0px solid #fff;
-}
-
-.header-container,
-.footer-container {
-    background: #aaa;
-}
-
-.title {
-    color: white;
-}
-
-/* ==============
-    MOBILE: Menu
-   ============== */
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #fff;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-
-}
-
-
 
 .header {
     padding: 5% 15%;
@@ -154,74 +69,7 @@ nav a:hover {
     padding: 5% 10%;   
 }
 
-/* ==============
-    MOBILE: Main
-   ============== */
-
-/*.main {
-    padding: 30px 0;
-}*/
-
-/*.main article h1 {
-    font-size: 2em;
-}*/
-
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-
-.ie7 .title {
-    padding-top: 20px;
-}
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
 @media only screen and (min-width: 480px) {
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-
-
-
-
-    
-
 
     .header {
         padding: 5% 15%;
@@ -266,40 +114,7 @@ nav a:hover {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        /*width: 85%;*/
-    }
-
     h1 {
-        /*font-size: 26px;*/
         font-size: 1.8em;
         line-height: 1.4em;
     }
@@ -309,36 +124,27 @@ nav a:hover {
         line-height: 1.4em;
     }
 
-
     .header {
         padding: 10% 25% 5% 25%;
     }
     
     .section-1 {
-        background-color: #348AA7;
-        color: #fff;
         padding: 5% 25%;
     }
     
     .section-2 {
-        background-color: #5DD39E;
         padding: 5% 25%;
     }
     
     .section-3 {
-        background-color: #525174;
-        color: #fff;
         padding: 5% 25%;
     }
     
     .section-4 {
-        background-color: #BCE784;
         padding: 5% 25%;
     }
     
     .section-5 {
-        background-color: #513B56;
-        color: #fff;
         padding: 5% 25%;
     }
     
@@ -348,129 +154,5 @@ nav a:hover {
     
     .quote {
         padding: 5% 10%;   
-    }
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
     }
 }
