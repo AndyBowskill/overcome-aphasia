@@ -29,6 +29,26 @@ p {
     line-height: 1.4em;
 }
 
+a {
+    color: #222;
+  }
+  
+  a:link {
+    color: #222;
+  }
+  
+  a:visited {
+    color: #222;
+  }
+  
+  a:hover {
+    color: #222;
+  }
+  
+  a:active {
+    color: #222;
+  }
+
 .header {
     padding: 5% 15%;
 }
