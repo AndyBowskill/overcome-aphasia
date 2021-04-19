@@ -31,23 +31,41 @@ p {
 
 a {
     color: #222;
-  }
+}
   
-  a:link {
+a:link {
     color: #222;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: #222;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: #222;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: #222;
-  }
+} 
+
+a.theme {
+    display: inline-block;
+    padding: 0.35em;
+    border: 0.1em solid #222;
+    margin: 1em 0 0 1em;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media all and (max-width:30em){
+     a.theme {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
 
 .header {
     padding: 5% 15%;

@@ -32,23 +32,34 @@ p {
 
 a {
     color: #fff;
-  }
-  
-  a:link {
+}
+
+a:link {
     color: #fff;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: #fff;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: #fff;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: #fff;
-  }
+}
+
+a.theme {
+    display: inline-block;
+    padding: 0.35em;
+    border: 0.1em solid #fff;
+    margin: 1em 0 0 1em;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
 
 .header {
     padding: 5% 15%;
@@ -75,7 +86,7 @@ a {
 }
 
 .section-5 {
-    background-color: #002B49;
+    background-color: #003C66;
     padding: 5% 15%;
 }
 
@@ -114,7 +125,7 @@ a {
     }
     
     .section-5 {
-        background-color: #002B49;
+        background-color: #003C66;
         padding: 5% 15%;
     }
     
