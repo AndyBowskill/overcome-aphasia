@@ -63,8 +63,7 @@ a.theme {
 
 @media all and (max-width:30em) {
      a.theme {
-        display: block;
-        margin: 0.4em;
+        margin: 0.5em auto auto 0.5em;
     }
 }
 
