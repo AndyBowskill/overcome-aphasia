@@ -58,12 +58,13 @@ a.theme {
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
+    font-size: 0.8em;
 }
 
 @media all and (max-width:30em) {
      a.theme {
         display: block;
-        margin: 0.4em auto;
+        margin: 0.4em;
     }
 }
 
