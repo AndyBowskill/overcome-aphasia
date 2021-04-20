@@ -61,6 +61,13 @@ a.theme {
     text-align: center;
 }
 
+@media all and (max-width:30em) {
+     a.theme {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
 .header {
     padding: 5% 15%;
 }
