@@ -1,8 +1,8 @@
-function toggleTheme() {
-    var theme = document.getElementById("theme");
-    if (theme.getAttribute('href') == 'css/light.min.css') {
-        theme.setAttribute('href', 'css/dark.min.css');
-    } else {
-        theme.setAttribute('href', 'css/light.min.css');
-    }
+const toggleTheme = () => {
+    const theme = document.getElementById("theme");
+    const lightTheme = "css/light.min.css";
+    const darkTheme = "css/dark.min.css";
+    
+    const selectedTheme = theme.getAttribute('href') === lightTheme ? darkTheme : lightTheme;
+    theme.setAttribute('href', selectedTheme); 
 }
